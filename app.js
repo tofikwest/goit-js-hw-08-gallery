@@ -103,7 +103,6 @@ function createGallery(items) {
 }
 
 function onPaletteGalleryContainer(evt) {
-  console.log(evt.target.classList.contains("gallery__image"));
   evt.preventDefault();
   if (!evt.target.classList.contains("gallery__image")) {
     return;
